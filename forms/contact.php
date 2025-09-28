@@ -40,4 +40,4 @@ if (isset($_POST['message'])) {
 
 // Send email
 echo $contact->send();
-?>
+?>                                                                                                                                                           Instead of PHP code, can we use Python code? If yes, then write the code.  
