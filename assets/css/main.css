@@ -619,7 +619,7 @@ section,
 }
 
 /* Mobile */
-@media (min-width: 360px ) {
+@media (max-width: 360px) and (min-width: 540px) {
   .mehh h2 {
     font-size: 28px;
   }
