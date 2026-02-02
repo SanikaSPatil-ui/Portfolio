@@ -619,7 +619,7 @@ section,
 }
 
 /* Mobile */
-@media (max-width: 480px ) {
+@media (min-width: 480px ) {
   .mehh h2 {
     font-size: 28px;
   }
@@ -628,9 +628,9 @@ section,
     font-size: 18px;
   }
 
-   /*.mehh img {
+   .mehh img {
     width:100%;
-  }*/
+  }
 }
 
 
