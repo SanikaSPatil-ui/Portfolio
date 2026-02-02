@@ -22,22 +22,22 @@ $contact->subject = isset($_POST['subject']) ? $_POST['subject'] : 'New Message 
 $contact->smtp = array(
   'host' => 'smtp.gmail.com',
   'username' => 'sanikapatil1417@gmail.com',
-  'password' => 'qfsy bsup qeic huwe', // 🔑 Use Gmail App Password
+  'password' => 'qfsy bsup qeic huwe', // 🔑 Gmail App Password
   'port' => '587',
   'encryption' => 'tls'
 );
 
 // Add form fields
-if (isset($_POST['name'])) {
+if (!empty($_POST['name'])) {
   $contact->add_message($_POST['name'], 'From');
 }
-if (isset($_POST['email'])) {
+if (!empty($_POST['email'])) {
   $contact->add_message($_POST['email'], 'Email');
 }
-if (isset($_POST['message'])) {
+if (!empty($_POST['message'])) {
   $contact->add_message($_POST['message'], 'Message', 10);
 }
 
 // Send email
 echo $contact->send();
-?>                                                                                                                                                           Instead of PHP code, can we use Python code? If yes, then write the code.  
+?>

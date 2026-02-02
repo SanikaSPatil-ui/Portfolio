@@ -607,6 +607,28 @@ section,
   }
 }
 
+/* Tablet */
+@media (max-width: 768px) {
+  .mehh h2 {
+    font-size: 36px;
+  }
+
+  .mehh p {
+    font-size: 20px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .mehh h2 {
+    font-size: 28px;
+  }
+
+  .mehh p {
+    font-size: 18px;
+  }
+}
+
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
