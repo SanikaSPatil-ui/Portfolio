@@ -619,7 +619,7 @@ section,
 }
 
 /* Mobile */
-@media (max-width: 360px) and (min-width: 540px) {
+/* @media (max-width: 360px) and (min-width: 540px) {
   .mehh h2 {
     font-size: 28px;
   }
@@ -630,6 +630,33 @@ section,
 
    .mehh img {
     width:100%;
+  }
+} */
+@media (max-width: 768px) {
+  .mehh {
+    min-height: auto;
+    padding: 120px 0 80px;
+  }
+
+  .mehh img {
+    position: relative;
+    width: 100%;
+    height: auto;      /* important */
+    object-fit: contain; /* shows full image */
+  }
+
+  .mehh:before {
+    position: absolute;
+  }
+
+  .mehh h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .mehh p {
+    font-size: 20px;
+    text-align: center;
   }
 }
 
