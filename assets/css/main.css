@@ -632,32 +632,42 @@ section,
     width:100%;
   }
 } */
+/* ==============================
+   MOBILE HERO FIX
+================================ */
 @media (max-width: 768px) {
+
   .mehh {
     min-height: auto;
-    padding: 120px 0 80px;
+    padding: 0;
+    flex-direction: column;
+    text-align: center;
   }
 
   .mehh img {
     position: relative;
     width: 100%;
-    height: auto;      /* important */
-    object-fit: contain; /* shows full image */
+    height: auto;
+    object-fit: contain;   /* FULL image visible */
+    display: block;
   }
 
   .mehh:before {
-    position: absolute;
+    display: none; /* remove dark overlay on image */
+  }
+
+  .mehh .container {
+    padding: 20px;
   }
 
   .mehh h2 {
-    font-size: 32px;
-    text-align: center;
+    font-size: 28px;
   }
 
   .mehh p {
-    font-size: 20px;
-    text-align: center;
+    font-size: 18px;
   }
+}
 }
 
 
