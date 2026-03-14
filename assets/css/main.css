@@ -649,7 +649,7 @@ section,
     inset: 0;
     width: 100%;
     height: 100%;
-    object-fit: contain;   /* FULL image visible */
+    object-fit: cover;   /* FULL image visible */
     z-index: 1;
   }
 
@@ -676,9 +676,7 @@ section,
     font-size: 18px;
     color: #ddd;
   }
-}
-
-
+} 
 
 
 /*--------------------------------------------------------------
