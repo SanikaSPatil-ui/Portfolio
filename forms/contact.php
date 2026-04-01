@@ -22,7 +22,7 @@
   $contact->smtp = array(
     'host' => 'smtp.gmail.com',
     'username' => 'sanikapatil1417@gmail.com',
-    'password' => 'qfsy bsup qeic huwe', // 🔑 Gmail App Password
+    'password' => '', // 🔑 Gmail App Password
     'port' => '587',
     'encryption' => 'tls'
   );
